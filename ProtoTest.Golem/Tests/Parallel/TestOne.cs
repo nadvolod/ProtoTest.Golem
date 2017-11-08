@@ -1,6 +1,7 @@
-﻿using NUnit.Framework;
+﻿using Golem.WebDriver;
+using NUnit.Framework;
 
-namespace Golem.Tests
+namespace Golem.Tests.Parallel
 {
     [Parallelizable]
     internal class ParallelTestOne : WebDriverTestBase

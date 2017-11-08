@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Automation;
 
-namespace Golem.Purple.Elements
+namespace Golem.Purple
 {
     public interface IPurpleElement
     {

@@ -4,9 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows;
 using System.Windows.Automation;
-using Golem.Purple.Elements;
 using Golem.Purple.PurpleCore;
-using Purple.Core;
 using PurpleLib;
 
 namespace Golem.Purple.PurpleElements

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Golem.Core;
 using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
-using Golem.Core;
-using Golem.WebDriver;
 using TestContext = NUnit.Framework.TestContext;
 
-namespace Golem
+namespace Golem.WebDriver
 {
 
     /// <summary>

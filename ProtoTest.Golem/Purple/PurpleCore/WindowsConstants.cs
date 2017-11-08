@@ -1,4 +1,4 @@
-namespace Purple.Core
+namespace Golem.Purple.PurpleCore
 {
     /// <summary>
     ///     Constants defined in winuser.h in C:\Program Files\Microsoft Visual Studio 8\VC\PlatformSDK\Include\WinUser.h

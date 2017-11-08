@@ -4,7 +4,6 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using Golem.Core;
-using Golem.Purple.Elements;
 using Golem.Purple.PurpleElements;
 using Golem.WebDriver.Elements.Images;
 

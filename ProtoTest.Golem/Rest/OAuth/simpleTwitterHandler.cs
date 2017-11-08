@@ -3,9 +3,8 @@ using System.IO;
 using System.Net;
 using System.Security.Cryptography;
 using System.Text;
-using Golem.Rest.OAuth;
 
-namespace TwitterOAuth
+namespace Golem.Rest.OAuth
 {
     internal class simpleTwitterHandler
     {

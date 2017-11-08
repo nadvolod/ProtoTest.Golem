@@ -4,7 +4,6 @@ using System.Drawing.Imaging;
 using System.IO;
 using Gallio.Framework;
 using Golem.Core;
-using Golem.Purple.Elements;
 using Golem.WebDriver.Elements.Images;
 
 namespace Golem.Purple

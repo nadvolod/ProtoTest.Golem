@@ -1,7 +1,6 @@
 ﻿using System.Drawing;
 using NUnit.Framework;
 using Golem.Core;
-using Golem.Purple.Elements;
 
 namespace Golem.Purple
 {
