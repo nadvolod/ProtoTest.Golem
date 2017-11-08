@@ -84,7 +84,7 @@ namespace Golem.Purple
             PurpleWindow.EndProcess();
         }
 
-        [TestFixtureTearDown]
+        [OneTimeTearDown]
         public void FixtureTearDown()
         {
         }

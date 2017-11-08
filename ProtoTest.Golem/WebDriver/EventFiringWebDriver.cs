@@ -1095,56 +1095,10 @@ namespace Golem.WebDriver
                 wrappedTimeouts = options.Timeouts();
             }
 
-            /// <summary>
-            ///     Specifies the amount of time the driver should wait when searching for an
-            ///     element if it is not immediately present.
-            /// </summary>
-            /// <param name="timeToWait">A <see cref="T:System.TimeSpan" /> structure defining the amount of time to wait.</param>
-            /// <returns>
-            ///     A self reference
-            /// </returns>
-            /// <remarks>
-            ///     When searching for a single element, the driver should poll the page
-            ///     until the element has been found, or this timeout expires before throwing
-            ///     a <see cref="T:OpenQA.Selenium.NoSuchElementException" />. When searching for multiple elements,
-            ///     the driver should poll the page until at least one element has been found
-            ///     or this timeout has expired.
-            ///     <para>
-            ///         Increasing the implicit wait timeout should be used judiciously as it
-            ///         will have an adverse effect on test run time, especially when used with
-            ///         slower location strategies like XPath.
-            ///     </para>
-            /// </remarks>
-            public ITimeouts ImplicitlyWait(TimeSpan timeToWait)
-            {
-                return wrappedTimeouts.ImplicitlyWait(timeToWait);
-            }
-
-            /// <summary>
-            ///     Specifies the amount of time the driver should wait when executing JavaScript asynchronously.
-            /// </summary>
-            /// <param name="timeToWait">A <see cref="T:System.TimeSpan" /> structure defining the amount of time to wait.</param>
-            /// <returns>
-            ///     A self reference
-            /// </returns>
-            public ITimeouts SetScriptTimeout(TimeSpan timeToWait)
-            {
-                return wrappedTimeouts.SetScriptTimeout(timeToWait);
-            }
-
-            /// <summary>
-            ///     Specifies the amount of time the driver should wait for a page to load when setting the
-            ///     <see cref="P:OpenQA.Selenium.IWebDriver.Url" /> property.
-            /// </summary>
-            /// <param name="timeToWait">A <see cref="T:System.TimeSpan" /> structure defining the amount of time to wait.</param>
-            /// <returns>
-            ///     A self reference
-            /// </returns>
-            public ITimeouts SetPageLoadTimeout(TimeSpan timeToWait)
-            {
-                wrappedTimeouts.SetPageLoadTimeout(timeToWait);
-                return this;
-            }
+           
+            public TimeSpan ImplicitWait { get; set; }
+            public TimeSpan AsynchronousJavaScript { get; set; }
+            public TimeSpan PageLoad { get; set; }
         }
 
         /// <summary>
@@ -1411,6 +1365,11 @@ namespace Golem.WebDriver
                     ParentDriver.OnException(new WebDriverExceptionEventArgs(ParentDriver, ex));
                     throw;
                 }
+            }
+
+            public string GetProperty(string propertyName)
+            {
+                throw new NotImplementedException();
             }
 
             /// <summary>

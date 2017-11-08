@@ -379,7 +379,7 @@ namespace Golem.WebDriver
 
         public static string GetScreenshot(this IWebDriver driver, string path)
         {
-            driver.TakeScreenshot().SaveAsFile(path, ImageFormat.Png);
+            driver.TakeScreenshot().SaveAsFile(path, ScreenshotImageFormat.Png);
             return path;
         }
 
