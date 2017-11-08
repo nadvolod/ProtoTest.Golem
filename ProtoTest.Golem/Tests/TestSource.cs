@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using NUnit.Framework;
-using Golem.Core;
-using Golem.WebDriver;
 
 namespace Golem.Tests
 {

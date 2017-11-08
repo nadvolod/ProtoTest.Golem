@@ -1,8 +1,4 @@
-﻿using System.Drawing.Imaging;
-using System.IO;
-using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.Extensions;
+﻿using NUnit.Framework;
 using Golem.Core;
 using Golem.WebDriver;
 

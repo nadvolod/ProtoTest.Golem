@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 using Golem.Core;
 using Golem.WebDriver;
 using TestContext = NUnit.Framework.TestContext;

@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Web.UI;
 using Gallio.Common.Media;
 using Gallio.Framework;
 using NUnit.Framework;

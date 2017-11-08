@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reflection;
 using OpenQA.Selenium;
 using Golem.Core;
 

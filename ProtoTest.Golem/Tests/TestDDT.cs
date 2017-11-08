@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using NUnit.Framework;
-using Golem.Core;
 using Golem.Tests.PageObjects.Google;
-using Golem.WebDriver;
 
 namespace Golem.Tests
 {
